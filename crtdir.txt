@@ -1,0 +1,33 @@
+Script started on 2024-11-21 03:14:52+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="136" LINES="14"]
+[0;32m@Gtalen [0m➜ [1;34m/workspaces/computer_infrastructure [0;36m([1;31mmain[0;36m) [0m$ mkdir -p data/timestamps data/weather
+[0;32m@Gtalen [0m➜ [1;34m/workspaces/computer_infrastructure [0;36m([1;31mmain[0;36m) [0m$ ls
+LICENSE  README.md  crtdir.txt  [0m[34;42mdata[0m  [34;42mproject[0m  [34;42mtasks[0m
+[0;32m@Gtalen [0m➜ [1;34m/workspaces/computer_infrastructure [0;36m([1;31mmain[0;36m) [0m$ cd data
+[0;32m@Gtalen [0m➜ [1;34m/workspaces/computer_infrastructure/data [0;36m([1;31mmain[0;36m) [0m$ ls
+[0m[34;42mtimestamps[0m  [34;42mweather[0m
+[0;32m@Gtalen [0m➜ [1;34m/workspaces/computer_infrastructure/data [0;36m([1;31mmain[0;36m) [0m$ cd timestamps/
+[0;32m@Gtalen [0m➜ [1;34m/workspaces/computer_infrastructure/data/timestamps [0;36m([1;31mmain[0;36m) [0m$ ls
+[0;32m@Gtalen [0m➜ [1;34m/workspaces/computer_infrastructure/data/timestamps [0;36m([1;31mmain[0;36m) [0m$ cd .
+[0;32m@Gtalen [0m➜ [1;34m/workspaces/computer_infrastructure/data/timestamps [0;36m([1;31mmain[0;36m) [0m$ cd ..
+[0;32m@Gtalen [0m➜ [1;34m/workspaces/computer_infrastructure/data [0;36m([1;31mmain[0;36m) [0m$ cd weaher[K[K[Kther
+[0;32m@Gtalen [0m➜ [1;34m/workspaces/computer_infrastructure/data/weather [0;36m([1;31mmain[0;36m) [0m$ ls
+[0;32m@Gtalen [0m➜ [1;34m/workspaces/computer_infrastructure/data/weather [0;36m([1;31mmain[0;36m) [0m$ ls[K[Kcd ..
+[0;32m@Gtalen [0m➜ [1;34m/workspaces/computer_infrastructure/data [0;36m([1;31mmain[0;36m) [0m$ ls -l
+total 8
+drwxrwxrwx+ 2 codespace codespace 4096 Nov 21 03:15 [0m[34;42mtimestamps[0m
+drwxrwxrwx+ 2 codespace codespace 4096 Nov 21 03:15 [34;42mweather[0m
+[0;32m@Gtalen [0m➜ [1;34m/workspaces/computer_infrastructure/data [0;36m([1;31mmain[0;36m) [0m$ d[Ktree data
+data [error opening dir]
+
+0 directories, 0 files
+[0;32m@Gtalen [0m➜ [1;34m/workspaces/computer_infrastructure/data [0;36m([1;31mmain[0;36m) [0m$ cd ..
+[0;32m@Gtalen [0m➜ [1;34m/workspaces/computer_infrastructure [0;36m([1;31mmain[0;36m) [0m$ tree data
+[34;42mdata[00m
+├── [34;42mtimestamps[00m
+└── [34;42mweather[00m
+
+2 directories, 0 files
+[0;32m@Gtalen [0m➜ [1;34m/workspaces/computer_infrastructure [0;36m([1;31mmain[0;36m) [0m$ exit
+exit
+
+Script done on 2024-11-21 03:18:09+00:00 [COMMAND_EXIT_CODE="0"]
