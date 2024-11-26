@@ -1,0 +1,10 @@
+Script started on 2024-11-26 16:37:14+00:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="151" LINES="44"]
+[0;32m@Gtalen [0m➜ [1;34m/workspaces/computer_infrastructure [0;36m([1;31mmain[0;36m) [0m$ cd data/w[Ktimestamps/
+[0;32m@Gtalen [0m➜ [1;34m/workspaces/computer_infrastructure/data/timestamps [0;36m([1;31mmain[0;36m) [0m$ tcd data/timestamps/[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ktouch ``[Kdate +"%Y%m%d_%H%M%S.text"[1Pxt"[C[C[C``[K
+[0;32m@Gtalen [0m➜ [1;34m/workspaces/computer_infrastructure/data/timestamps [0;36m([1;31mmain[0;36m) [0m$ ls
+20241126_163826.txt  formatted.txt  now.txt
+[0;32m@Gtalen [0m➜ [1;34m/workspaces/computer_infrastructure/data/timestamps [0;36m([1;31mmain[0;36m) [0m$ more 20241126_163826.txt 
+[0;32m@Gtalen [0m➜ [1;34m/workspaces/computer_infrastructure/data/timestamps [0;36m([1;31mmain[0;36m) [0m$ exit
+exit
+
+Script done on 2024-11-26 16:38:44+00:00 [COMMAND_EXIT_CODE="0"]
