@@ -1,0 +1,4 @@
+i am learning to edit in nano
+
+Now i'm in Vi!
+
