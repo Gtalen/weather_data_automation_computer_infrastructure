@@ -1,0 +1,68 @@
+Script started on 2024-11-28 13:43:23+00:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="151" LINES="27"]
+[0;32m@Gtalen [0m➜ [1;34m/workspaces/computer_infrastructure [0;36m([1;31mmain[0;36m) [0m$ touch weather.sh
+[0;32m@Gtalen [0m➜ [1;34m/workspaces/computer_infrastructure [0;36m([1;31mmain[0;36m) [0m$ ls
+LICENSE    crtdir_log.txt  dtformt_log.txt  [0m[34;42mproject[0m  timestamps_log.txt  weather.ipynb  weather_log.txt    wedatstamp_log.txt_
+README.md  [34;42mdata[0m            [34;42mmy_work[0m          [34;42mtasks[0m    tstampfile_log.txt  weather.sh     wedascipt_log.txt
+[0;32m@Gtalen [0m➜ [1;34m/workspaces/computer_infrastructure [0;36m([1;31mmain[0;36m) [0m$ ./weather.sh
+bash: ./weather.sh: Permission denied
+[0;32m@Gtalen [1;31m➜ [1;34m/workspaces/computer_infrastructure [0;36m([1;31mmain[0;36m) [0m$ ls -al
+total 80
+drwxrwxrwx+ 7 codespace root      4096 Nov 28 13:43 [0m[34;42m.[0m
+drwxr-xrwx+ 5 codespace root      4096 Nov 21 02:26 [34;42m..[0m
+drwxrwxrwx+ 9 codespace root      4096 Nov 28 12:53 [34;42m.git[0m
+-rw-rw-rw-  1 codespace root      3139 Nov 21 02:26 .gitignore
+-rw-rw-rw-  1 codespace root      1075 Nov 21 02:26 LICENSE
+-rw-rw-rw-  1 codespace root       118 Nov 21 02:26 README.md
+-rw-rw-rw-  1 codespace codespace 2539 Nov 21 03:18 crtdir_log.txt
+drwxrwxrwx+ 4 codespace codespace 4096 Nov 21 03:15 [34;42mdata[0m
+-rw-rw-rw-  1 codespace codespace 2724 Nov 26 15:57 dtformt_log.txt
+drwxrwxrwx+ 2 codespace codespace 4096 Nov 28 11:23 [34;42mmy_work[0m
+drwxrwxrwx+ 2 codespace codespace 4096 Nov 21 02:43 [34;42mproject[0m
+drwxrwxrwx+ 2 codespace codespace 4096 Nov 28 13:36 [34;42mtasks[0m
+-rw-rw-rw-  1 codespace codespace 2568 Nov 26 15:35 timestamps_log.txt
+-rw-rw-rw-  1 codespace codespace 1020 Nov 26 16:38 tstampfile_log.txt
+-rw-rw-rw-  1 codespace codespace 9597 Nov 28 12:46 weather.ipynb
+-rw-rw-rw-  1 codespace codespace  182 Nov 28 13:44 weather.sh
+-rw-rw-rw-  1 codespace codespace 3628 Nov 28 10:29 weather_log.txt
+-rw-rw-rw-  1 codespace codespace    0 Nov 28 13:43 wedascipt_log.txt
+-rw-rw-rw-  1 codespace codespace 3691 Nov 28 11:14 wedatstamp_log.txt_
+[0;32m@Gtalen [0m➜ [1;34m/workspaces/computer_infrastructure [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Gtalen [0m➜ [1;34m/workspaces/computer_infrastructure [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Gtalen [0m➜ [1;34m/workspaces/computer_infrastructure [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Gtalen [0m➜ [1;34m/workspaces/computer_infrastructure [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Gtalen [0m➜ [1;34m/workspaces/computer_infrastructure [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Gtalen [0m➜ [1;34m/workspaces/computer_infrastructure [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Gtalen [0m➜ [1;34m/workspaces/computer_infrastructure [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Gtalen [0m➜ [1;34m/workspaces/computer_infrastructure [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Gtalen [0m➜ [1;34m/workspaces/computer_infrastructure [0;36m([1;31mmain[0;36m) [0m$ chmod u+x ./weather.sh
+[0;32m@Gtalen [0m➜ [1;34m/workspaces/computer_infrastructure [0;36m([1;31mmain[0;36m) [0m$ ls -al
+total 80
+drwxrwxrwx+ 7 codespace root      4096 Nov 28 13:43 [0m[34;42m.[0m
+drwxr-xrwx+ 5 codespace root      4096 Nov 21 02:26 [34;42m..[0m
+drwxrwxrwx+ 9 codespace root      4096 Nov 28 12:53 [34;42m.git[0m
+-rw-rw-rw-  1 codespace root      3139 Nov 21 02:26 .gitignore
+-rw-rw-rw-  1 codespace root      1075 Nov 21 02:26 LICENSE
+-rw-rw-rw-  1 codespace root       118 Nov 21 02:26 README.md
+-rw-rw-rw-  1 codespace codespace 2539 Nov 21 03:18 crtdir_log.txt
+drwxrwxrwx+ 4 codespace codespace 4096 Nov 21 03:15 [34;42mdata[0m
+-rw-rw-rw-  1 codespace codespace 2724 Nov 26 15:57 dtformt_log.txt
+drwxrwxrwx+ 2 codespace codespace 4096 Nov 28 11:23 [34;42mmy_work[0m
+drwxrwxrwx+ 2 codespace codespace 4096 Nov 21 02:43 [34;42mproject[0m
+drwxrwxrwx+ 2 codespace codespace 4096 Nov 28 13:36 [34;42mtasks[0m
+-rw-rw-rw-  1 codespace codespace 2568 Nov 26 15:35 timestamps_log.txt
+-rw-rw-rw-  1 codespace codespace 1020 Nov 26 16:38 tstampfile_log.txt
+-rw-rw-rw-  1 codespace codespace 9597 Nov 28 12:46 weather.ipynb
+-rwxrw-rw-  1 codespace codespace  182 Nov 28 13:44 [01;32mweather.sh[0m
+-rw-rw-rw-  1 codespace codespace 3628 Nov 28 10:29 weather_log.txt
+-rw-rw-rw-  1 codespace codespace    0 Nov 28 13:43 wedascipt_log.txt
+-rw-rw-rw-  1 codespace codespace 3691 Nov 28 11:14 wedatstamp_log.txt_
+[0;32m@Gtalen [0m➜ [1;34m/workspaces/computer_infrastructure [0;36m([1;31mmain[0;36m) [0m$ ./weather.sh 
+Downloading weather data
+--2024-11-28 13:45:58--  https://prodapi.metweb.ie/observations/athenry/today
+Resolving prodapi.metweb.ie (prodapi.metweb.ie)... 139.162.185.91
+Connecting to prodapi.metweb.ie (prodapi.metweb.ie)|139.162.185.91|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/json]
+Saving to: ‘data/weather/20241128_134558.json’
+
+data/weather/20241128_134558.json         [<=>                                                                      ]       0  --.-KB/s               data/weather/20241128_134558.json         [ <=>                                                                     ]   4.15K  --.-KB/s    in 0s      
+
+2024-11-28 13:45:59 (537 MB/s) - ‘data/weather/20241128_134558.json’ saved [4247]
+
+Weather data downloaded
+[0;32m@Gtalen [0m➜ [1;34m/workspaces/computer_infrastructure [0;36m([1;31mmain[0;36m) [0m$ exit
+exit
+
+Script done on 2024-11-28 13:46:12+00:00 [COMMAND_EXIT_CODE="0"]
