@@ -1,8 +1,8 @@
-name: Automate Weather Script
+name: Automated Weather Script
 
 on:
   schedule:
-    # Schedule to run daily at 10:00 AM UTC
+    # Scheduled to run daily at 10:00 AM UTC
     - cron: '0 10 * * *'
   workflow_dispatch: # Allows manual trigger for testing
 
