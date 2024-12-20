@@ -33,7 +33,7 @@ In this project, I automated the [weather.sh](https://github.com/Gtalen/computer
    - Resources for creating the workflow included GitHub Actions documentation, crontab tutorials, and detailed prompting from   ChatGPT-4.
 
 2. **Workflow Definition**
-   - The script is set to execute at 10 AM daily.
+   - The script was set to execute at 10 AM daily.
    - It runs on the latest Ubuntu version, ensuring compatibility with the script.
    - The workflow includes a git repository checkout step.
    - A workflow_dispatch trigger is added to allow for manual initiation and testing.
