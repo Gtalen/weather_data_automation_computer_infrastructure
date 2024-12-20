@@ -24,7 +24,7 @@ drwxrwxrwx+ 2 codespace codespace 4096 Nov 28 13:36 [34;42mtasks[0m
 -rw-rw-rw-  1 codespace codespace 9597 Nov 28 12:46 weather.ipynb
 -rw-rw-rw-  1 codespace codespace  182 Nov 28 13:44 weather.sh
 -rw-rw-rw-  1 codespace codespace 3628 Nov 28 10:29 weather_log.txt
--rw-rw-rw-  1 codespace codespace    0 Nov 28 13:43 wedascipt_log.txt
+-rw-rw-rw-  1 codespace codespace    0 Nov 28 13:43 wedascript_log.txt
 -rw-rw-rw-  1 codespace codespace 3691 Nov 28 11:14 wedatstamp_log.txt_
 [0;32m@Gtalen [0m➜ [1;34m/workspaces/computer_infrastructure [0;36m([1;31mmain[0;36m) [0m$ 
 [K[0;32m@Gtalen [0m➜ [1;34m/workspaces/computer_infrastructure [0;36m([1;31mmain[0;36m) [0m$ 
