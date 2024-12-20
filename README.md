@@ -29,7 +29,7 @@ In this project, I automated the [weather.sh](https://github.com/Gtalen/computer
 
 1. Workflow File Creation
   - I created a *.github* directory, followed by a *workflows* subdirectory to house the GitHub Actions workflow file.
-  - The workflow file, [weather_data.yml](https://github.com/Gtalen/computer_infrastructure/blob/main/.github/workflows/weather_data.yml, was used to define the automation process.
+  - The workflow file, [weather_data.yml](https://github.com/Gtalen/computer_infrastructure/blob/main/.github/workflows/weather_data.yml), was used to define the automation process.
   - Resources for creating the workflow included GitHub Actions documentation, crontab tutorials, and detailed prompting from ChatGPT-4.
 
 2. Workflow Definition
