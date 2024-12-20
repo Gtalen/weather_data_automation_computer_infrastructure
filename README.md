@@ -27,28 +27,28 @@ In this project, I automated the [weather.sh](https://github.com/Gtalen/computer
 
 ### Procedure
 
-1. Workflow File Creation
-  - I created a *.github* directory, followed by a *workflows* subdirectory to house the GitHub Actions workflow file.
-  - The workflow file, [weather_data.yml](https://github.com/Gtalen/computer_infrastructure/blob/main/.github/workflows/weather_data.yml), was used to define the automation process.
-  - Resources for creating the workflow included GitHub Actions documentation, crontab tutorials, and detailed prompting from ChatGPT-4.
+1. **Workflow File Creation**
+   - I created a *.github* directory, followed by a *workflows* subdirectory to house the GitHub Actions workflow file.
+   - The workflow file, [weather_data.yml](https://github.com/Gtalen/computer_infrastructure/blob/main/.github/workflows/  weather_data.yml), was used to define the automation process.
+   - Resources for creating the workflow included GitHub Actions documentation, crontab tutorials, and detailed prompting from   ChatGPT-4.
 
-2. Workflow Definition
-  - The script is set to execute at 10 AM daily.
-  - It runs on the latest Ubuntu version, ensuring compatibility with the script.
-  - The workflow includes a git repository checkout step.
-  - A workflow_dispatch trigger is added to allow for manual initiation and testing.
-  - The chmod step ensures the script has executable permissions.
-  - The script then executes the [weather.sh](https://github.com/Gtalen/computer_infrastructure/blob/main/weather.sh) file updating the weather data.
-  - Finally, the script commits and pushes changes to the repository in the [weather directory](https://github.com/Gtalen/computer_infrastructure/tree/main/data/weather).
+2. **Workflow Definition**
+   - The script is set to execute at 10 AM daily.
+   - It runs on the latest Ubuntu version, ensuring compatibility with the script.
+   - The workflow includes a git repository checkout step.
+   - A workflow_dispatch trigger is added to allow for manual initiation and testing.
+   - The chmod step ensures the script has executable permissions.
+   - The script then executes the [weather.sh](https://github.com/Gtalen/computer_infrastructure/blob/main/weather.sh) file   updating the weather data.
+   - Finally, the script commits and pushes changes to the repository in the [weather directory](https://github.com/Gtalen/  computer_infrastructure/tree/main/data/weather).
 
-3. Initial Testing and Error Handling
-  - The first execution encountered an error related to permission restrictions.
+3. **Initial Testing and Error Handling**
+   - The first execution encountered an error related to permission restrictions.
 
-4. Modifications and Further Testing
-  - The workflow YAML file was updated to include a GitHub token for authentication.
-  - Permissions on my GitHub account were adjusted to allow the script to commit and push changes.
-  - After these modifications, testing was successful, and the automation runs smoothly.
-
+4. **Modifications and Further Testing**
+   - The workflow YAML file was updated to include a GitHub token for authentication.
+   - Permissions on my GitHub account were adjusted to allow the script to commit and push changes.
+   - After these modifications, testing was successful, and the automation runs smoothly.
+ 
 
 ## Usage
 
